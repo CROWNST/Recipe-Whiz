@@ -22,7 +22,7 @@
 		4D14EF4927881D050072A2AC /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14EF4827881D050072A2AC /* Search.swift */; };
 		4D14EF4C2788D9CE0072A2AC /* RecipeComplexModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14EF4B2788D9CE0072A2AC /* RecipeComplexModels.swift */; };
 		4D14EF4E27891F2D0072A2AC /* RecipeCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14EF4D27891F2D0072A2AC /* RecipeCardViewController.swift */; };
-		4D14EF51278923010072A2AC /* TinyChef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D14EF4F278923010072A2AC /* TinyChef.xcdatamodeld */; };
+		4D14EF51278923010072A2AC /* Recipe Whiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D14EF4F278923010072A2AC /* Recipe Whiz.xcdatamodeld */; };
 		4D14EF53278927950072A2AC /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14EF52278927950072A2AC /* DataController.swift */; };
 		4D14EF57278FC0E00072A2AC /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14EF56278FC0DF0072A2AC /* UIBarButtonItemExtension.swift */; };
 		4D58A0C32793ABA800832AD7 /* RecipeCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D58A0C22793ABA800832AD7 /* RecipeCardInfo.swift */; };
@@ -30,7 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D05057A2784279500866574 /* TinyChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D05057A2784279500866574 /* Recipe Whiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe Whiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D05057D2784279500866574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D05057F2784279500866574 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4D0505812784279500866574 /* SearchRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipeViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		4D14EF4827881D050072A2AC /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		4D14EF4B2788D9CE0072A2AC /* RecipeComplexModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeComplexModels.swift; sourceTree = "<group>"; };
 		4D14EF4D27891F2D0072A2AC /* RecipeCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardViewController.swift; sourceTree = "<group>"; };
-		4D14EF50278923010072A2AC /* TinyChef.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinyChef.xcdatamodel; sourceTree = "<group>"; };
+		4D14EF50278923010072A2AC /* Recipe Whiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Recipe Whiz.xcdatamodel"; sourceTree = "<group>"; };
 		4D14EF52278927950072A2AC /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		4D14EF56278FC0DF0072A2AC /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
 		4D58A0C22793ABA800832AD7 /* RecipeCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardInfo.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 			children = (
 				4D05057D2784279500866574 /* AppDelegate.swift */,
 				4D05057F2784279500866574 /* SceneDelegate.swift */,
-				4D05057C2784279500866574 /* TinyChef */,
+				4D05057C2784279500866574 /* Recipe Whiz */,
 				4D05057B2784279500866574 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,12 +78,12 @@
 		4D05057B2784279500866574 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D05057A2784279500866574 /* TinyChef.app */,
+				4D05057A2784279500866574 /* Recipe Whiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D05057C2784279500866574 /* TinyChef */ = {
+		4D05057C2784279500866574 /* Recipe Whiz */ = {
 			isa = PBXGroup;
 			children = (
 				4D0505A627868F9100866574 /* Model */,
@@ -93,7 +93,7 @@
 				4D0505862784279700866574 /* Assets.xcassets */,
 				4D05058B2784279700866574 /* Info.plist */,
 			);
-			path = TinyChef;
+			path = "Recipe Whiz";
 			sourceTree = "<group>";
 		};
 		4D050591278427E800866574 /* Storyboards */ = {
@@ -133,7 +133,7 @@
 				4D14EF4A2788D9A70072A2AC /* Data */,
 				4D90F6E92786C13100295087 /* SpoonacularResponses */,
 				4D0505A727868FA100866574 /* SpoonacularClient */,
-				4D14EF4F278923010072A2AC /* TinyChef.xcdatamodeld */,
+				4D14EF4F278923010072A2AC /* Recipe Whiz.xcdatamodeld */,
 				4D14EF52278927950072A2AC /* DataController.swift */,
 				4D58A0C22793ABA800832AD7 /* RecipeCardInfo.swift */,
 			);
@@ -168,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D0505792784279500866574 /* TinyChef */ = {
+		4D0505792784279500866574 /* Recipe Whiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D05058E2784279700866574 /* Build configuration list for PBXNativeTarget "TinyChef" */;
+			buildConfigurationList = 4D05058E2784279700866574 /* Build configuration list for PBXNativeTarget "Recipe Whiz" */;
 			buildPhases = (
 				4D0505762784279500866574 /* Sources */,
 				4D0505772784279500866574 /* Frameworks */,
@@ -180,9 +180,9 @@
 			);
 			dependencies = (
 			);
-			name = TinyChef;
+			name = "Recipe Whiz";
 			productName = TinyChef;
-			productReference = 4D05057A2784279500866574 /* TinyChef.app */;
+			productReference = 4D05057A2784279500866574 /* Recipe Whiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D0505752784279500866574 /* Build configuration list for PBXProject "TinyChef" */;
+			buildConfigurationList = 4D0505752784279500866574 /* Build configuration list for PBXProject "Recipe Whiz" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -213,7 +213,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D0505792784279500866574 /* TinyChef */,
+				4D0505792784279500866574 /* Recipe Whiz */,
 			);
 		};
 /* End PBXProject section */
@@ -248,7 +248,7 @@
 				4D14EF53278927950072A2AC /* DataController.swift in Sources */,
 				4D0505A12785798B00866574 /* SearchByIngredientsViewController.swift in Sources */,
 				4D90F6EB2786C16E00295087 /* Autocomplete.swift in Sources */,
-				4D14EF51278923010072A2AC /* TinyChef.xcdatamodeld in Sources */,
+				4D14EF51278923010072A2AC /* Recipe Whiz.xcdatamodeld in Sources */,
 				4D0505802784279500866574 /* SceneDelegate.swift in Sources */,
 				4D58A0C32793ABA800832AD7 /* RecipeCardInfo.swift in Sources */,
 				4D0505A5278579E100866574 /* FavoriteRecipesViewController.swift in Sources */,
@@ -403,7 +403,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5U8TA469X5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TinyChef/Info.plist;
+				INFOPLIST_FILE = "Recipe Whiz/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -414,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Udacity.TinyChef;
+				PRODUCT_BUNDLE_IDENTIFIER = "Udacity.Recipe Whiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,7 +431,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5U8TA469X5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TinyChef/Info.plist;
+				INFOPLIST_FILE = "Recipe Whiz/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Udacity.TinyChef;
+				PRODUCT_BUNDLE_IDENTIFIER = "Udacity.Recipe Whiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -453,7 +453,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D0505752784279500866574 /* Build configuration list for PBXProject "TinyChef" */ = {
+		4D0505752784279500866574 /* Build configuration list for PBXProject "Recipe Whiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D05058C2784279700866574 /* Debug */,
@@ -462,7 +462,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D05058E2784279700866574 /* Build configuration list for PBXNativeTarget "TinyChef" */ = {
+		4D05058E2784279700866574 /* Build configuration list for PBXNativeTarget "Recipe Whiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D05058F2784279700866574 /* Debug */,
@@ -474,13 +474,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4D14EF4F278923010072A2AC /* TinyChef.xcdatamodeld */ = {
+		4D14EF4F278923010072A2AC /* Recipe Whiz.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4D14EF50278923010072A2AC /* TinyChef.xcdatamodel */,
+				4D14EF50278923010072A2AC /* Recipe Whiz.xcdatamodel */,
 			);
-			currentVersion = 4D14EF50278923010072A2AC /* TinyChef.xcdatamodel */;
-			path = TinyChef.xcdatamodeld;
+			currentVersion = 4D14EF50278923010072A2AC /* Recipe Whiz.xcdatamodel */;
+			path = "Recipe Whiz.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
