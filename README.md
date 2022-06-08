@@ -50,3 +50,6 @@ of Xcode using the device simulator of your choice.
 
 * **Chosen Recipes** temporarily store recipes to use while cooking
 * **Favorites** stores recipes via Core Data
+
+# Privacy Policy
+This app does not collect user data.
